@@ -1,3 +1,7 @@
 .blue {
     color: #2d73ac!important;
 }
+
+h3.blue{
+    text-decoration: underline;
+}
