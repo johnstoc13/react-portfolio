@@ -26,17 +26,17 @@ function About() {
                 <div className="container">
                     <div className="row pt-3">
                         <div className="col-4 text-center">
-                            <a className="fab fa-github-square fa-3x text-white" href="https://github.com/johnstoc13"
+                            <a className="fab fa-github-square fa-4x text-white" href="https://github.com/johnstoc13"
                                 target="_blank"></a>
                             <p className="text-white mb-0">GitHub</p>
                         </div>
                         <div className="col-4 text-center">
-                            <a className="fab fa-linkedin fa-3x text-white"
+                            <a className="fab fa-linkedin fa-4x text-white"
                                 href="https://www.linkedin.com/in/chase-johnston8" target="_blank"></a>
                             <p className="text-white mb-0">LinkedIn</p>
                         </div>
                         <div className="col-4 text-center">
-                            <a className="fas fa-file-pdf fa-3x text-white" href= {Pdf} target="_blank"></a>
+                            <a className="fas fa-file-pdf fa-4x text-white" href= {Pdf} target="_blank"></a>
                             <p className="text-white mb-0">Resume</p>
                         </div>
                     </div>
