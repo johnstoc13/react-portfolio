@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
-import imageSrc from "../../images/chase.jpeg";
+import imageSrc from "../../assets/images/chase.jpeg";
+import docSrc from "../../assets/docs/resume";
 
 function About() {
 
@@ -35,7 +36,7 @@ function About() {
                             <p class="text-white mb-0">LinkedIn</p>
                         </div>
                         <div class="col-4 text-center">
-                            <a class="fas fa-file-pdf fa-3x text-white" href="./assets/docs/Resume.pdf" target="_blank"></a>
+                            <a class="fas fa-file-pdf fa-3x text-white" href={docSrc} target="_blank"></a>
                             <p class="text-white mb-0">Resume</p>
                         </div>
                     </div>
