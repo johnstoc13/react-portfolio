@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 // import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 // import { StoreProvider } from "./utils/GlobalState";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         {/* <Route exact path="/contact" component={Contact} /> */}
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
