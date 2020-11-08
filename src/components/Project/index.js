@@ -1,8 +1,6 @@
 import React from "react";
-import TechUsed from "../TechUsed";
 
 function Project(props) {
-    const techUsedArray = props.portfolioData.techUsed;
 
     return (
         <div key={props.portfolioData.name.toString()}>
@@ -20,17 +18,9 @@ function Project(props) {
                 <div className="row">
                     <div className="col-6">
                         <h6 className="text-white">TECH USED:</h6>
-                        <TechUsed techUsedArray = {techUsedArray} />
-                        
-                        {/* <ul className="fa-ul text-white"> */}
-                           
-                            {/* <li><span className="fa-li"><i className="far fa-check-circle"></i></span>{props.portfolioData.techUsed}</li> */}
-                            {/* <li><span className="fa-li"><i className="far fa-check-circle"></i></span>Foundation CSS</li>
-                            <li><span className="fa-li"><i className="far fa-check-circle"></i></span>Javascript/jQuery</li>
-                            <li><span className="fa-li"><i className="far fa-check-circle"></i></span>Animate.css</li>
-                            <li><span className="fa-li"><i className="far fa-check-circle"></i></span>MovieDB API</li>
-                            <li><span className="fa-li"><i className="far fa-check-circle"></i></span>Deck of Cards API</li> */}
-                        {/* </ul> */}
+                        <ul className="fa-ul text-white">
+                            {props.portfolioData.techUsed.map(item => <li><span className="fa-li"><i className="far fa-check-circle"></i></span>{item}</li>)}
+                        </ul>
                     </div>
                     <div className="col-6 d-flex flex-column justify-content-around">
                         <a className="btn bg-blue text-white w-75" href={props.portfolioData.code}
