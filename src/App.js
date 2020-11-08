@@ -5,7 +5,6 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-// import { StoreProvider } from "./utils/GlobalState";
 
 function App() {
   return (
