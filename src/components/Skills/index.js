@@ -4,7 +4,7 @@ import "./style.css";
 function Skills() {
 
     return (
-        <div className="row pt-3">
+        <div className="row pt-3 bg-white">
             <div className="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
                 <i className="fas fa-laptop-code fa-3x blue pb-2"></i>
                 <h3 className="blue text-center pb-2">TECHNICAL SKILLS</h3>

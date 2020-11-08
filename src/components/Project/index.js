@@ -11,13 +11,13 @@ function Project(props) {
             </div>
             <div className="col-lg-6 py-lg-5 py-3 px-3">
                 <div className="row px-3">
-                    <h4 className="text-dark text-center">{props.portfolioData.name}</h4>
-                    <p className="text-dark">{props.portfolioData.description}</p>
+                    <h4 className="text-white text-center">{props.portfolioData.name}</h4>
+                    <p className="text-white">{props.portfolioData.description}</p>
                 </div>
                 <div className="row">
                     <div className="col-6">
-                        <h6 className="text-dark">TECH USED:</h6>
-                        <ul className="fa-ul text-dark">
+                        <h6 className="text-white">TECH USED:</h6>
+                        <ul className="fa-ul text-white">
                             <li><span className="fa-li"><i className="far fa-check-circle"></i></span>HTML/CSS</li>
                             <li><span className="fa-li"><i className="far fa-check-circle"></i></span>Foundation CSS</li>
                             <li><span className="fa-li"><i className="far fa-check-circle"></i></span>Javascript/jQuery</li>
