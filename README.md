@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Chase Johnston's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Welcome to my personal portfolio page! Here you will find out about my skills, interests, hobbies, find links to deployed applications, access my resume and all of my contact information for GitHub, LinkedIn, phone and email.
 
-In the project directory, you can run:
+Tech Used: HTML, CSS, Bootstrap, Javascript, Font Awesome, React.
 
-### `npm start`
+Contact: chasej@live.com
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Deployment
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The website can be reached here:  https://johnstoc13.github.io/react-portfolio/
 
-### `npm test`
+## Notes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This Weather Dashboard was built using the Open Weather Map API, jQuery, Bootstrap, Moment JS and Font Awesome. I utilized Moment JS to get my date info for the forecast. Next I used the OpenWeather API to get my weather data. I found the API query to be challenging at first, but once I was able to access the data via the console, I was able to get that data onto the page fairly easily. I pushed myself to stick to jQuery and use template literals. This resulted in much cleaner code and I enjoyed the process. This was a fun and very involved assignment that encompassed the last 6 weeks of the course in its entirety. Using Bootstrap, I was once again able to get a mobile responsive design from the beginning, allowing for a clean and user friendly application.
 
-### `npm run build`
+## Resources
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Bootstrap CSS Framework - https://getbootstrap.com/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Font Awesome - https://fontawesome.com/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React - https://reactjs.org/
 
-### `npm run eject`
+## Images
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+DESKOP VIEW:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="1286" alt="Desktop" src="https://user-images.githubusercontent.com/66090689/90320337-6aa5ac00-df0e-11ea-9f90-a6722602a07f.png">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+MOBILE VIEWS:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="539" alt="Mobile 1" src="https://user-images.githubusercontent.com/66090689/90320338-6c6f6f80-df0e-11ea-8b60-27788e00ad48.png">
+<img width="541" alt="Mobile 2" src="https://user-images.githubusercontent.com/66090689/90320339-6da09c80-df0e-11ea-9c3c-fe432c40f98d.png">
+<img width="542" alt="Mobile 3" src="https://user-images.githubusercontent.com/66090689/90320341-6ed1c980-df0e-11ea-8d79-78346a22d1c8.png">
