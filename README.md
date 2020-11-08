@@ -31,13 +31,13 @@ React - https://reactjs.org/
 
 DESKOP VIEW:
 
-<img width="1286" alt="Desktop" src="https://user-images.githubusercontent.com/66090689/90320337-6aa5ac00-df0e-11ea-9f90-a6722602a07f.png">
+<img width="1400" alt="Desktop" src="https://user-images.githubusercontent.com/66090689/98487478-151d2a80-21f1-11eb-997c-ffd3f4883ffd.png">
 
 MOBILE VIEWS:
 
-<img width="539" alt="Mobile 1" src="https://user-images.githubusercontent.com/66090689/90320338-6c6f6f80-df0e-11ea-8b60-27788e00ad48.png">
-<img width="541" alt="Mobile 2" src="https://user-images.githubusercontent.com/66090689/90320339-6da09c80-df0e-11ea-9c3c-fe432c40f98d.png">
-<img width="542" alt="Mobile 3" src="https://user-images.githubusercontent.com/66090689/90320341-6ed1c980-df0e-11ea-8d79-78346a22d1c8.png">
+<img width="593" alt="About" src="https://user-images.githubusercontent.com/66090689/98487481-164e5780-21f1-11eb-8108-b4bc61540aad.png">
+<img width="596" alt="Portfolio" src="https://user-images.githubusercontent.com/66090689/98487483-177f8480-21f1-11eb-9bc9-e82e9e5fbc07.png">
+<img width="591" alt="Contact" src="https://user-images.githubusercontent.com/66090689/98487485-18181b00-21f1-11eb-84d2-c985f4757c4a.png">
 
 ## License
 
