@@ -1,5 +1,9 @@
 import teamBuilderImage from "../assets/images/Team Builder.png";
 import flickTheDeckImage from "../assets/images/Flick-The-Deck.png";
+import budgetTrackerImage from "../assets/images/Budget Tracker.png";
+import burgerBonanzaImage from "../assets/images/Burger Bonanza.png";
+import teamGeneratorImage from "../assets/images/Employee Team Generator.png";
+import weatherDashboardImage from "../assets/images/Weather-Dashboard.png";
 
 const projects = [
     {
@@ -34,6 +38,70 @@ const projects = [
         ],
         code: "https://github.com/johnstoc13/Flick-The-Deck",
         application: "https://johnstoc13.github.io/Flick-the-Deck/",
+    },
+    {
+        name: "Budget Tracker",
+        description: 'This application allows the user to track their budget and expenses! Inputs for deposits and expenses are tracked continuously, whether the user is online or offline. A great application for keeping track of expenses while on a vacation, or for holiday spending!',
+        image: budgetTrackerImage,
+        techUsed: [
+            "HTML/CSS",
+            "Javascript",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Mongoose",
+            "Morgan",
+            "Heroku"
+        ],
+        code: "https://github.com/johnstoc13/Budget-Tracker",
+        application: "https://chases-budget-tracker.herokuapp.com/",
+    },
+    {
+        name: "Burger Bonanza",
+        description: 'This project is for all the burger lovers out there! The application allows the user to create and add burgers to a menu, where they can either eat or delete them. Yummm!',
+        image: burgerBonanzaImage,
+        techUsed: [
+            "Bootstrap CSS",
+            "Font Awesome",
+            "Animate CSS",
+            "Javascript/jQuery",
+            "Node.js",
+            "Express.js",
+            "MySQL",
+            "Handlebars",
+            "Heroku"
+        ],
+        code: "https://github.com/johnstoc13/Burger-Bonanza",
+        application: "https://chases-burger-bonanza.herokuapp.com/",
+    },
+    {
+        name: "Employee Team Generator",
+        description: 'This project is a command line application that generates a software engineering team profile web page.',
+        image: teamGeneratorImage,
+        techUsed: [
+            "HTML/CSS",
+            "Bootstrap CSS",
+            "Javascript",
+            "Node.js",
+            "Inquirer.js"
+        ],
+        code: "https://github.com/johnstoc13/Employee-Team-Generator",
+        application: "https://www.youtube.com/watch?v=CAHs9fGLbAE&feature=youtu.be",
+    },
+    {
+        name: "Weather Dashboard",
+        description: 'An application that gets the current weather for a selected city, along with a 5 day forecast. Also displays the most recent searches on the page, and will load the latest search upon page refresh.',
+        image: weatherDashboardImage,
+        techUsed: [
+            "HTML/CSS",
+            "Bootstrap CSS",
+            "Javascript/jQuery",
+            "Moment.js",
+            "Font Awesome",
+            "Open Weather Map API"
+        ],
+        code: "https://github.com/johnstoc13/Weather-Dashboard",
+        application: "https://johnstoc13.github.io/Weather-Dashboard/",
     },
 ]
 
