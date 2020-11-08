@@ -102,7 +102,7 @@ const projects = [
         ],
         code: "https://github.com/johnstoc13/Weather-Dashboard",
         application: "https://johnstoc13.github.io/Weather-Dashboard/",
-    },
-]
+    }
+];
 
 export default projects;
