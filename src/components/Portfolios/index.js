@@ -8,7 +8,7 @@ function Portfolios(props) {
     return (
         <div className="row px-5">
             {projects.map(portfolioData => {
-                    console.log(portfolioData);
+                    // console.log(portfolioData);
 
                     return (projects.indexOf(portfolioData),
                     <Project key={portfolioData.name.toString()} portfolioData={portfolioData} />
