@@ -10,3 +10,7 @@
 p {
     font-size: 16px;
 }
+
+a.hover-orange:hover {
+    color: #faa161!important;
+}

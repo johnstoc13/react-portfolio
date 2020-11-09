@@ -14,6 +14,6 @@
     background-color: #343a40;
 }
 
-i:hover {
+i.hover-orange:hover {
     color: #faa161!important;
 }
