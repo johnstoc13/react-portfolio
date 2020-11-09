@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.6a30f341.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.26a3504e.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.26a3504e.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.e09c56b8.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e09c56b8.js.map",
+    "static/js/2.07abe544.chunk.js": "/react-portfolio/static/js/2.07abe544.chunk.js",
+    "static/js/2.07abe544.chunk.js.map": "/react-portfolio/static/js/2.07abe544.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.6a30f341.chunk.css.map": "/react-portfolio/static/css/main.6a30f341.chunk.css.map",
+    "static/js/2.07abe544.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.07abe544.chunk.js.LICENSE.txt",
+    "static/media/Budget Tracker.f071b391.png": "/react-portfolio/static/media/Budget Tracker.f071b391.png",
+    "static/media/Burger Bonanza.db57f635.png": "/react-portfolio/static/media/Burger Bonanza.db57f635.png",
+    "static/media/Employee Team Generator.58b10d23.png": "/react-portfolio/static/media/Employee Team Generator.58b10d23.png",
+    "static/media/Flick-The-Deck.b8ea28e3.png": "/react-portfolio/static/media/Flick-The-Deck.b8ea28e3.png",
+    "static/media/Team Builder.e633aed2.png": "/react-portfolio/static/media/Team Builder.e633aed2.png",
+    "static/media/Weather-Dashboard.1c011260.png": "/react-portfolio/static/media/Weather-Dashboard.1c011260.png",
+    "static/media/chase.16e995ff.jpeg": "/react-portfolio/static/media/chase.16e995ff.jpeg",
+    "static/media/resume.7adcee52.pdf": "/react-portfolio/static/media/resume.7adcee52.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e09c56b8.js",
+    "static/js/2.07abe544.chunk.js",
+    "static/css/main.6a30f341.chunk.css",
+    "static/js/main.26a3504e.chunk.js"
+  ]
+}
