@@ -29,7 +29,7 @@ React - https://reactjs.org/
 
 ## Images
 
-DESKOP VIEW:
+DESKTOP VIEW:
 
 <img width="1400" alt="Desktop" src="https://user-images.githubusercontent.com/66090689/98487478-151d2a80-21f1-11eb-997c-ffd3f4883ffd.png">
 
