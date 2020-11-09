@@ -13,16 +13,16 @@ function Nav() {
                 <div className="col-md-6 my-md-2">
                     <ul className="navbar-nav flex-row justify-content-md-end justify-content-center">
                         <li className="nav-item">
-                            <NavLink to="/" className={window.location.pathname === "/" || window.location.pathname === "/home" ? "nav-link-active" : "nav-link"}>ABOUT</NavLink>
+                            <NavLink to="/home" className={window.location.pathname === "/" || window.location.pathname === "/home" ? "nav-link-active" : "nav-link"}>ABOUT</NavLink>
                             {/* <a className="nav-link text-white px-2 mx-2" href="/">ABOUT</a> */}
                         </li>
                         <li className="nav-item">
-                        <NavLink to="/" className={window.location.pathname === "/portfolio" ? "nav-link-active" : "nav-link"}>PORTFOLIO</NavLink>
+                            <NavLink to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link-active" : "nav-link"}>PORTFOLIO</NavLink>
                             {/* <a className="nav-link text-white px-3 py-0 mt-2 border-left border-right"
                                 href="/portfolio">PORTFOLIO</a> */}
                         </li>
                         <li className="nav-item">
-                        <NavLink to="/" className={window.location.pathname === "/contact" ? "nav-link-active" : "nav-link"}>CONTACT</NavLink>
+                            <NavLink to="/contact" className={window.location.pathname === "/contact" ? "nav-link-active" : "nav-link"}>CONTACT</NavLink>
                             {/* <a className="nav-link text-white px-2 mx-2" href="/contact">CONTACT</a> */}
                         </li>
                     </ul>
