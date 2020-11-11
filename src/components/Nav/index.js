@@ -13,16 +13,16 @@ function Nav() {
                 <div className="col-md-6 my-md-2">
                     <ul className="navbar-nav flex-row justify-content-md-end justify-content-center">
                         <li className="nav-item px-2 mt-1 mx-2">
-                            <NavLink to="/home" className={window.location.pathname === "/" || window.location.pathname === "/home" ? "nav-link active hover-orange" : "nav-link hover-orange"}>ABOUT</NavLink>
+                            <NavLink to="/react-portfolio/home" className={window.location.pathname === "/" || window.location.pathname === "/react-portfolio/home" ? "nav-link active hover-orange" : "nav-link hover-orange"}>ABOUT</NavLink>
                             {/* <a className="nav-link text-white px-2 mx-2" href="/">ABOUT</a> */}
                         </li>
                         <li className="nav-item px-3 py-0 mt-1 border-left border-right">
-                            <NavLink to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active hover-orange" : "nav-link hover-orange"}>PORTFOLIO</NavLink>
+                            <NavLink to="/react-portfolio/portfolio" className={window.location.pathname === "/react-portfolio/portfolio" ? "nav-link active hover-orange" : "nav-link hover-orange"}>PORTFOLIO</NavLink>
                             {/* <a className="nav-link text-white px-3 py-0 mt-2 border-left border-right"
                                 href="/portfolio">PORTFOLIO</a> */}
                         </li>
                         <li className="nav-item px-2 mt-1 mx-2">
-                            <NavLink to="/contact" className={window.location.pathname === "/contact" ? "nav-link active hover-orange" : "nav-link hover-orange"}>CONTACT</NavLink>
+                            <NavLink to="/react-portfolio/contact" className={window.location.pathname === "/react-portfolio/contact" ? "nav-link active hover-orange" : "nav-link hover-orange"}>CONTACT</NavLink>
                             {/* <a className="nav-link text-white px-2 mx-2" href="/contact">CONTACT</a> */}
                         </li>
                     </ul>
