@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
+import axios from "axios";
 
 function ContactMe() {
 
+    const [name, setName] = useState("");
+    const [phone, setPhone] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+    const formSubmitHandler = (event) => {
+        event.preventDefault();
+        let data = {
+            name,
+            phone,
+            email,
+            message
+        }
+        axios.post("/react-portfolio/contact", data);
+        console.log("TESTING");
+    };
     return (
         <div>
             <div className="row py-3 py-md-4 bg-gray">
@@ -52,10 +69,10 @@ function ContactMe() {
                         {/* <!-- Cited:  https://stackoverflow.com/questions/24391078/how-to-change-the-default-message-of-the-required-field-in-the-popover-of-form-c --> */}
                         <input type="text" className="form-control rounded-right name"
                             // oninvalid="this.setCustomValidity('Please enter valid name')" oninput="setCustomValidity('')"
-                            placeholder="Your Name"
+                            placeholder="Your Name" onChange={(event) => setName(event.target.value)}
                             // onkeypress="return event.charCode >= 65 && event.charCode <= 90 || event.charCode >= 97 && event.charCode <= 122 || event.charCode == 32"
-                            required 
-                            />
+                            required
+                        />
                     </div>
                     <div className="input-group mb-3 w-75">
                         <div className="input-group-prepend">
@@ -64,10 +81,10 @@ function ContactMe() {
                         <input type="text" className="form-control rounded-right phone"
                             // oninvalid="this.setCustomValidity('Please enter valid phone number')"
                             // oninput="setCustomValidity('')" 
-                            placeholder="Your Phone Number"
+                            placeholder="Your Phone Number" onChange={(event) => setPhone(event.target.value)}
                             // onkeypress="return event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45 || event.charCode == 40 || event.charCode == 41"
-                            required 
-                            />
+                            required
+                        />
                         <div className="invalid-feedback">Phone number must be 10 digits including dashes. EX: 123-456-7890
                     </div>
                     </div>
@@ -78,8 +95,8 @@ function ContactMe() {
                         <input type="email" className="form-control rounded-right email"
                             // oninvalid="this.setCustomValidity('Please enter valid email address')"
                             // oninput="setCustomValidity('')" 
-                            placeholder="Your Email" required 
-                            />
+                            placeholder="Your Email" onChange={(event) => setEmail(event.target.value)} required
+                        />
                     </div>
                     <div className="input-group mb-3">
                         <div className="input-group-prepend">
@@ -87,10 +104,10 @@ function ContactMe() {
                         </div>
                         <textarea className="form-control rounded-right message"
                             // oninvalid="this.setCustomValidity('Please enter valid message')" oninput="setCustomValidity('')"
-                            rows="10" placeholder="Your Message" required
-                            ></textarea>
+                            rows="10" placeholder="Your Message" onChange={(event) => setMessage(event.target.value)} required
+                        ></textarea>
                     </div>
-                    <button type="submit" className="btn bg-blue text-white mb-3" id="submitButton">Submit</button>
+                    <button type="submit" onClick={formSubmitHandler} className="btn bg-blue text-white mb-3" id="submitButton">Submit</button>
                 </form>
                 <div className="col-md-1"></div>
             </div>
