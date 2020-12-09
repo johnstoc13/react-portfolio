@@ -9,7 +9,7 @@ import weatherDashboardImage from "../assets/images/Weather-Dashboard.png";
 const projects = [
     {
         name: "Safe Space",
-        description: "Due to the unprecedented shift to a remote workforce, it can be difficult for teams to create and maintain a cohesive bond. This group application aims to help build teams, foster creativity, and strengthen culture.",
+        description: "Safe Space offers a unique platform that helps the LGBTQ community safely expand their orbit by connecting members with resources, businesses and community.",
         image: safeSpaceImage,
         techUsed: [
             "Angular",
