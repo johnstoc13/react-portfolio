@@ -1,3 +1,4 @@
+import safeSpaceImage from "../assets/images/Safe Space.png";
 import teamBuilderImage from "../assets/images/Team Builder.png";
 import flickTheDeckImage from "../assets/images/Flick-The-Deck.png";
 import budgetTrackerImage from "../assets/images/Budget Tracker.png";
@@ -6,6 +7,25 @@ import teamGeneratorImage from "../assets/images/Employee Team Generator.png";
 import weatherDashboardImage from "../assets/images/Weather-Dashboard.png";
 
 const projects = [
+    {
+        name: "Safe Space",
+        description: "Due to the unprecedented shift to a remote workforce, it can be difficult for teams to create and maintain a cohesive bond. This group application aims to help build teams, foster creativity, and strengthen culture.",
+        image: safeSpaceImage,
+        techUsed: [
+            "Angular",
+            "Material IO",
+            "Typescript",
+            "SCSS/Animate.css",
+            "Nest JS",
+            "Auth0",
+            "Heroku",
+            "MongoDB/Mongoose",
+            "RXJS",
+            "Socket.IO"
+        ],
+        code: "https://github.com/johnstoc13/safe-space",
+        application: "https://safe-space-ne.herokuapp.com/home",
+    },
     {
         name: "Team Builder",
         description: "Due to the unprecedented shift to a remote workforce, it can be difficult for teams to create and maintain a cohesive bond. This group application aims to help build teams, foster creativity, and strengthen culture.",
